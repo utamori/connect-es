@@ -12,10 +12,10 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-import * as http2 from "http2";
-import * as http from "http";
-import * as https from "https";
-import type * as net from "net";
+import * as http2 from "node:http2";
+import * as http from "node:http";
+import * as https from "node:https";
+import type * as net from "node:net";
 import { Code, ConnectError } from "@bufbuild/connect";
 import {
   nodeHeaderToWebHeader,

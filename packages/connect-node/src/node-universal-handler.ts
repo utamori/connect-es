@@ -12,9 +12,9 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-import type * as http from "http";
-import type * as http2 from "http2";
-import type * as stream from "stream";
+import type * as http from "node:http";
+import type * as http2 from "node:http2";
+import type * as stream from "node:stream";
 import type { JsonValue } from "@bufbuild/protobuf";
 import { Code, ConnectError } from "@bufbuild/connect";
 import type {

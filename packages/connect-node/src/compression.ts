@@ -12,8 +12,8 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-import * as zlib from "zlib";
-import { promisify } from "util";
+import * as zlib from "node:zlib";
+import { promisify } from "node:util";
 import type { Compression } from "@bufbuild/connect/protocol";
 import { Code, ConnectError } from "@bufbuild/connect";
 import { getNodeErrorProps } from "./node-error.js";
